@@ -1,6 +1,7 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+Get a ramdom joke [here](https://vpgrishkin.github.io/20_mood/)
+
 
 # Project Goals
 
