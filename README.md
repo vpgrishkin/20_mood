@@ -1,6 +1,6 @@
 # Site for the Mood
 
-Get a ramdom joke [here](https://vpgrishkin.github.io/20_mood/)
+Get a random joke [here](https://vpgrishkin.github.io/20_mood/)
 
 
 # Project Goals
