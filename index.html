@@ -11,9 +11,9 @@
    <body>
       <div class="container">
          <div class="joke">
-            <h3 class="phrase-js"></h3>
-            <p class="signature-js"></p>
-            <p><a class="btn btn-js btn-lg btn-success" role="button">Next joke</a></p>
+            <h3 class="js-phrase"></h3>
+            <p class="js-signature"></p>
+            <p><a class="btn js-btn btn-lg btn-success" role="button">Next joke</a></p>
          </div>
       </div>
       <!-- /.container -->
@@ -23,15 +23,15 @@
          var jokes
          function outputJoke() {
              randomIndex = Math.floor(Math.random() * jokes.length)
-             $(".phrase-js").text(jokes[randomIndex].phrase);
-             $(".signature-js").text(jokes[randomIndex].signature);
+             $(".js-phrase").text(jokes[randomIndex].phrase);
+             $(".js-signature").text(jokes[randomIndex].signature);
          };
          
          $(document).ready(function() {        
              $.getJSON("quotes.json", function(data) {
                  jokes = data;
                  outputJoke();
-                 $(".btn-js").click(outputJoke);
+                 $(".js-btn").click(outputJoke);
              });
          });    
       </script>
